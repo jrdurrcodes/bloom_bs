@@ -26,20 +26,14 @@ font-family: "Noto Sams", sans-serif
 body {
     margin: 0;
     padding: 0;
-    font-family var(--font1);
+    font-family: var(--font1);
 }
 
 /*classes */
 
-
 .clear { 
     clear: both;
 }
-
-.box {
-
-}
-
 
 .btn { 
     padding: 8px;
@@ -49,34 +43,18 @@ body {
     border-radius: 5px;
 }
 
-.colophon, #bottomSocialNav { 
-    width: 50%;
-    float: left;
-}
-
 .colophon {
     margin: 0;
     color: #fff;
-}
-
-.container {
-    margin: 0 auto;
-    width: 80%;
-    border: 1 px solid black;
 }
 
 .content-heading {
     color: white;
 }
 
-.figure {
-    border: 5px solid #b8c4d4;
-    height: 140px; 
-    width: 280px;
-    float: left;
-}
-
 .footer {
+    padding: 4px 0;
+    width: 100%;
     background-color: #26292e;
 }
 
@@ -86,41 +64,8 @@ body {
     background-color: var(--sec);
 }
 
-.heading, #topSocialNav {
-  float: left;  
-}
-
-.heading {
-    margin:0;
-    width:50%;
-    ;
-}
-
-
-
-
 .icons {
     background-color: #fff;
-}
-
-.laptop {
-    float: right;
-}
-
-.products {
-    margin: 0 40px 20px 0;
-    width: 2275px;
-    height: 135px;
-    
-    
-}
-
-.products {
-
-}
-
-.nav {
-    
 }
 
 
@@ -129,59 +74,33 @@ body {
     color: black;
 }
 
-.bottomSocialNav {
-    float: right;
+.products{
+    width: ;
 }
 
 /*  ids  */
 
-
-#block1, #block2, #block3  {
-    width: 100%;
-    padding: 0;
-    
-    
-}
-
 #heading {
-    width: 50%;
     color: var(--prim);
     font-family: var(--font1);
     text-transform: capitalize;
 }
 
 #section1 {
-    padding: 20px;
-    width:100%;
+    padding: 20px 0;
     background-color: var(--prim);
     background-image: var(--grad);
 }
 
 #section2 {
     background-color: var(--tert);
-    border-bottom: ;
+    border-bottom: 6px solid var(--sec2Border) ;
 }
 
-#section2{
-    width: 0;
-    padding: 0;
-    
+#section3{
+    padding: 30px 0;
 }
 
-#section1Box1,#section2 {
-    
-}
-
-#spanClass {
-
-}
-
-#topSocialNav {
-    list-style: none;
-}
-
-#topSocialLIst {
-}
 
 
 

@@ -15,28 +15,28 @@
     <header class="header" id="header">
         <div class="container">
             <div class="row" id="row1">
-                <div class="col-9">
+                <div class="col-5">
                     <h1 class="sub-heading" id="heading">Bloom Landing Page</h1>
                 </div>
-                <div class="col-3">
-                    <nav class="nav social-nav w-100" id="topSocialNav">
-                        <ul class="social-list  nav-list d-flex" id="topSocialList">
+                <div class="col-7">
+                    <nav class="social-nav" id="topSocialNav text-decorate">
+                        <ul class="social-list  nav-list nav justify-content-end" id="topSocialList">
                             <li class="social-item nav-item">
-                                <a href="#" nav-link> 
+                                <a href="#" class="nav-link"> 
                                     <i class="bi bi-facebook"></i>
-                                    <span class="visually-hidden" id="topSocialNav">Facebook</span>
+                                    <span class="visually-hidden">Facebook</span>
                                 </a>
                             </li>
                             <li class="social-item nav-item">
-                                <a href="#" nav-link> 
+                                <a href="#" class="nav-link"> 
                                     <i class="bi bi-twitter"></i>
-                                    <span class="visually-hidden" id="topSocialNav">Twitter</span>
+                                    <span class="visually-hidden">Twitter</span>
                                 </a>
                             </li>
                             <li class="social-item nav-item">
-                                <a href="#" nav-link> 
+                                <a href="#" class="nav-link"> 
                                     <i class="bi bi-rss"></i>
-                                    <span class="visually-hidden" id="topSocialNav">Rss Feed</span>
+                                    <span class="visually-hidden">Rss Feed</span>
                                 </a>
                             </li>
                         </ul>
@@ -68,26 +68,27 @@
                 </div> 
             </div>
         </section>
-        <section class = "section2" id="main">
+        <section class="section2" id="main">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">  
-                        <div class="block"id= "block1">
-                            <h2 class="sub-heading">Lorem, ipsum dolor.</h2>
-                            <p class ="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit sunt error provident architecto reiciendis, voluptatem deserunt odio! Aliquam, non animi rerum, ipsum necessitatibus modi dolores reiciendis ex quos ipsa impedit.
+                        <div class="block"id="block1">
+                            <h2 class="sub-heading"><i class="bi bi-cloud-download"></i>Lorem, ipsum dolor.</h2>
+                            
+                            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit sunt error provident architecto reiciendis, voluptatem deserunt odio! Aliquam, non animi rerum, ipsum necessitatibus modi dolores reiciendis ex quos ipsa impedit.
                             </p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="blocks" id="blocks2">
-                            <h2 class="sub-heading">Lorem, ipsum dolor.</h2>
+                            <h2 class="sub-heading"><i class="bi bi-chat-left-dots-fill"></i>Lorem, ipsum dolor.</h2>
                             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quo quos in voluptatibus! Dicta tempora odio minima facere labore esse voluptatem qui incidunt, deserunt ad error suscipit nam atque sequi?
                             </p>
                         </div>
                     </div>
                     <div class="col-md-4">  
                         <div class="blocks" id="blocks3">
-                            <h2 class="sub-heading">Lorem, ipsum dolor.</h2>
+                            <h2 class="sub-heading"><i class="bi bi-bookmark-star-fill"></i>Lorem, ipsum dolor.</h2>
                             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos culpa porro fuga natus voluptate ratione dolore esse eaque, aperiam tenetur quis pariatur, neque quaerat molestiae blanditiis. Veritatis, obcaecati repellat!
                             </p>
                         </div>    
@@ -97,48 +98,56 @@
         <section class="section3" id="main">
             <div class="container">
                 <div class="row" id="section3Row">
-                    <div class="col-md-3 sm-4 m-4">
-                        <h2  class ="sub-heading">Checkout or Products</h2>
+                    <div class="col-md-8">
+                        <h2  class="sub-heading">Checkout or Products</h2>
                         <div class="products">
                             <div class="products" id="products1"></div>
+
                             <div class="products" id="products2"></div>
+                            
                             <div class="products" id="products3"></div>
                             <div class="products" id="products4"></div>
                         </div>  
                     </div>
-                </div>
-                <div class="section3" id="main">
-                    <h2 class="sub-heading">What our clients are saying...</h2>
+                    <div class="col-md-4">
+                        <h2 class="sub-heading">What our clients are saying...</h2>
                         <ul>
                             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, debitis? Aut quas est vitae odio modi distinctio quam recusandae tempora doloremque, voluptatibus veritatis suscipit ipsum.-John Smith</li>
                             <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quos illum sed maxime cumque eos dolorem doloribus similique veritatis. At tenetur nulla provident recusandae praesentium.-John Smith</li>
                             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate deleniti modi recusandae impedit obcaecati harum saepe, porro nihil culpa.-John Smith</li>
                         </ul>
+                    </div>   
                 </div>
             </div>  
         </section>
     </main>
     <footer class="footer" id="footer">
-        <p class="fs-text">Copyright &copy; 2012 Bloom Landing &middot; All rights reserved</p>
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <ul>
+                <div class="col-3">
+                    <p class="fs-text">Copyright &copy; 2012 Bloom Landing &middot; All rights reserved</p>
+                </div>
+                <div class="col-9">
+                    <nav class="social-nav" id="bottomSocialnav text-decorate"></nav>
+                    <ul class="social=list nav-list nav justify-content-end" id="bottomSocialnav">
                         <li>
-                        <a href="#">
-                            <span class="visually-hidden">Facebook</span>
-                        </a>
-                            </li>
-                <!-- <li class="social-item"> -->
-                            <li>
-                        <a href="#">
-                            <span class="visually-hidden">Twitter</span>
-                        </a>
-                            </li>
-                            <li> 
-                        <a href="#">
-                            <span class="visually-hidden">Fss Feed</span>
-                        </a>
+                            <a href="#" class="nav-link">
+                                <i class="bi bi-facebook"></i>
+                                <span class="visually-hidden">Facebook</span>
+                            </a>
+                        </li>
+                        <!-- <li class="social-item"> -->
+                        <li>
+                            <a href="#" class="nav-link">
+                                <i class="bi bi-twitter"></i>
+                                <span class="hidden">Twitter</span>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="#" class="nav-link">
+                                <i class="bi bi-rss"></i>
+                                <span class="visually-hidden">Fss Feed</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
