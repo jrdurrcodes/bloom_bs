@@ -2,9 +2,9 @@
 font-family: "Noto Sams", sans-serif
  */
 
- :root {
+:root {
     --font1: "Sofia", "cursive";
-    --font2: " Noto Sams", sans-serif;
+    --font2:  "Roboto", sans-serif;
     --prim: white;
     --sec: rgb(253, 119, 141);
     --btnColor: #213349;    
@@ -26,14 +26,10 @@ font-family: "Noto Sams", sans-serif
 body {
     margin: 0;
     padding: 0;
-    font-family: var(--font1);
+    font-family: var(--font2);
 }
 
 /*classes */
-
-.clear { 
-    clear: both;
-}
 
 .btn { 
     padding: 8px;
@@ -48,6 +44,10 @@ body {
     color: #fff;
 }
 
+.content-footer {
+    color: white;
+}
+
 .content-heading {
     color: white;
 }
@@ -55,27 +55,37 @@ body {
 .footer {
     padding: 4px 0;
     width: 100%;
-    background-color: #26292e;
+    background-color: black;
 }
 
 .header {
     padding: 4px 0; 
     width: 100%;
-    background-color: var(--sec);
+    background-color:black;
 }
 
 .icons {
     background-color: #fff;
 }
 
-
 .bold {
     font-weight: 900;
     color: black;
 }
 
-.products{
-    width: ;
+.mainSection3 {
+    padding: 20px 0;
+}
+
+.product {
+    width: 280px ;
+    height: 180px;
+    background-color: #26292e;
+    border: 10px solid #b2a4a4;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 /*  ids  */
@@ -88,11 +98,11 @@ body {
 
 #section1 {
     padding: 20px 0;
-    background-color: var(--prim);
     background-image: var(--grad);
 }
 
 #section2 {
+    padding: 20px 0;
     background-color: var(--tert);
     border-bottom: 6px solid var(--sec2Border) ;
 }
@@ -100,6 +110,8 @@ body {
 #section3{
     padding: 30px 0;
 }
+
+ 
 
 
 
